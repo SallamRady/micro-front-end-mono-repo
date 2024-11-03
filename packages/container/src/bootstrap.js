@@ -14,6 +14,12 @@ if (process.env.NODE_ENV === "development") {
   if (rootEl) {
     mount(rootEl);
   }
+}else{
+  const rootEl = document.getElementById("root");
+
+  if (rootEl) {
+    mount(rootEl);
+  }
 }
 
 // export mount to used through container

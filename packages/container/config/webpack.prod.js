@@ -16,7 +16,7 @@ const prodConfig = {
     new federaionModule({
       name: "container",
       remotes: {
-        marketting: `marketting@${domain}/marketting/remoteEntry.js`,
+        marketing: `marketing@${domain}/marketing/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     }),

@@ -13,10 +13,10 @@ const devConfig = {
   },
   plugins: [
     new federaionModule({
-      name: "marketting",
+      name: "marketing",
       filename: "remoteEntry.js",
       exposes: {
-        "./MarkettingApp": "./src/bootstrap.js",
+        "./MarketingApp": "./src/bootstrap.js",
       },
       shared: packageJson.dependencies,
     }),

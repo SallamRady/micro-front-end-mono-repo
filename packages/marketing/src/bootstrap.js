@@ -9,7 +9,7 @@ const mount = (el) => {
 
 // if you are in development call mount
 if (process.env.NODE_ENV === "development") {
-  const rootEl = document.getElementById("marketting-root");
+  const rootEl = document.getElementById("marketing-root");
 
   if (rootEl) {
     mount(rootEl);
